@@ -11,20 +11,19 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Posts"
-  pageRef = "posts"
+  name = "Blog"
+  pageRef = "blog"
   weight = 10
 
 [[main]]
-  identifier = "web"
-  pre = "link"
-  url = "https://louis-dalo.github.io"
-  weight = 20
+  name = "ReadAction"
+  pageRef = "readaction"
+  weight = 10
 
 [[main]]
   name = "Réseaux"
   pre = "bars"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Bluesky"
@@ -32,7 +31,7 @@
   parent = "Réseaux"
   pre = "bluesky"
   url = "https://bsky.app/profile/louis-dalo.bsky.social"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "Instagram"
@@ -40,7 +39,7 @@
   parent = "Réseaux"
   pre = "instagram"
   url = "https://www.instagram.com/dalo_louis/"
-  weight = 50
+  weight = 40
 
 [[main]]
   name = "Babelio"
@@ -48,13 +47,15 @@
   parent = "Réseaux"
   pre = "comment"
   url = "https://www.babelio.com/monprofil.php?id_user=2275415"
-  weight = 60
+  weight = 50
  
 [[main]]
+  name = "Mail"
   identifier = "Mail"
+  parent = "Réseaux"
   pre = "email"
   url = "mailto:louis.dalo.off@gmail.com"
-  weight = 70
+  weight = 60
 
 
 # -- Footer Menu --
