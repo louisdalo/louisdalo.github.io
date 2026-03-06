@@ -1,0 +1,63 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  identifier = "web"
+  pre = "link"
+  url = "https://louis-dalo.github.io"
+  weight = 20
+
+[[main]]
+  name = "Réseaux"
+  pre = "bars"
+  weight = 30
+
+[[main]]
+  name = "Bluesky"
+  identifier = "bluesky"
+  parent = "Réseaux"
+  pre = "bluesky"
+  url = "https://bsky.app/profile/louis-dalo.bsky.social"
+  weight = 40
+
+[[main]]
+  name = "Instagram"
+  identifier = "instagram"
+  parent = "Réseaux"
+  pre = "instagram"
+  url = "https://www.instagram.com/dalo_louis/"
+  weight = 50
+
+[[main]]
+  name = "Babelio"
+  identifier = "babelio"
+  parent = "Réseaux"
+  pre = "comment"
+  url = "https://www.babelio.com/monprofil.php?id_user=2275415"
+  weight = 60
+ 
+[[main]]
+  identifier = "Mail"
+  pre = "email"
+  url = "mailto:louis.dalo.off@gmail.com"
+  weight = 70
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
