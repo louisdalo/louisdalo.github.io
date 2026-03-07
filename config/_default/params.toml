@@ -47,7 +47,6 @@ mainSections = ["blog"]
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
-  # editURL = "https://github.com/username/repo/"
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
@@ -77,23 +76,11 @@ mainSections = ["blog"]
   excludedKinds = []
 
 [taxonomy]
-  showTermCount = true
+  showTermCount = false
 
-[firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
-
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
-
-[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
+[umamiAnalytics]
+  websiteid = "c0135a0a-bbb1-4399-9909-e88d094c57bc"
+  # domain = "louisdalo.github.io"
+  # dataDomains = "github.io"
+  # scriptName = "TRACKER_SCRIPT_NAME"
+  enableTrackEvent = true

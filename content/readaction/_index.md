@@ -83,7 +83,7 @@ showHero: false
 
 
 <!-- Loading parameters -->
-<script src="./constraints.js"></script>
+<script src="./fr-constraints.js"></script>
 
 <script>
 /* ================================================================
