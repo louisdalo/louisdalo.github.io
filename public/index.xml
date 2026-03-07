@@ -30,16 +30,6 @@
     </item>
     
     <item>
-      <title>Ouverture</title>
-      <link>http://localhost:1313/posts/opening/</link>
-      <pubDate>Fri, 06 Mar 2026 00:00:00 +0100</pubDate>
-      
-      <guid>http://localhost:1313/posts/opening/</guid>
-      <description>Les débuts sont toujours de moments délicats&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/opening/cover.png" />
-    </item>
-    
-    <item>
       <title>Credits</title>
       <link>http://localhost:1313/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -94,7 +94,7 @@ showHero: false
   if (WC_COVER_IMAGE) {
     hero.style.setProperty('--wc-bg-img', `url('${WC_COVER_IMAGE}')`);
   } else {
-    hero.style.background = '#262626';
+    hero.style.background = '#292524';
   }
 })();
 
