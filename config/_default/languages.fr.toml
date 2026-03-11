@@ -1,0 +1,14 @@
+languageCode = "fr"
+languageName = "Français"
+weight = 1
+title = "Louis Dalo - Accueil"
+
+[params.author]
+  name = "Louis Dalo"
+  image = "img/avatar.png"
+  headline = "Je fais des choses aléatoires, ne m'en voulez pas."
+   links = [
+     { bluesky = "https://bsky.app/profile/louis-dalo.bsky.social" },
+     { instagram = "https://www.instagram.com/dalo_louis/" },
+     { comment = "https://www.babelio.com/monprofil.php?id_user=2275415" }
+   ]

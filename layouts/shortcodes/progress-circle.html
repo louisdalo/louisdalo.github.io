@@ -1,0 +1,36 @@
+{{ $label := .Get "label" }}
+{{ $value := .Get "value" | int }}
+{{ $size := .Get "size" | default "120" }}
+{{ $id := printf "cp-%s" (now.UnixNano | string) }}
+
+{{- $radius := 45 -}}
+{{- $circ := 282.74 -}}{{/* 2 * π * 45 */}}
+{{- $offset := mul (sub 100 $value) (div $circ 100.0) -}}
+
+<div class="text-primary-500 dark:text-primary-400">
+  <div style="display: inline-flex; flex-direction: column; align-items: center; gap: 0.5rem; margin: 1rem;">
+    <div style="position: relative; width: {{ $size }}px; height: {{ $size }}px;">
+      <svg width="{{ $size }}" height="{{ $size }}" viewBox="0 0 100 100" style="transform: rotate(-90deg);">
+        <circle cx="50" cy="50" r="45"
+          fill="none"
+          stroke="currentColor"
+          stroke-opacity="0.15"
+          stroke-width="8"/>
+        <circle cx="50" cy="50" r="45"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="8"
+          stroke-linecap="butt"
+          stroke-dasharray="{{ $circ }}"
+          stroke-dashoffset="{{ $offset }}"
+          style="transition: stroke-dashoffset 0.6s ease;"/>
+      </svg>
+      <!-- Percentage label in center -->
+      <div class="text-neutral-700 dark:text-neutral-300" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+                  font-weight: 700; font-size: {{ div ($size | int) 4 }}px;">
+        {{ $value }}%
+      </div>
+    </div>
+    <span class="text-neutral-700 dark:text-neutral-300" style="font-size: 0.85rem; font-weight: 600; text-align: center;">{{ $label }}</span>
+  </div>
+</div>
