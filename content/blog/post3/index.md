@@ -7,6 +7,11 @@ date: 2026-03-10T18:00:00
 draft: false
 ---
 
+## Se mettre au vert
+
+> Je marchais seul au milieu du hall, le bruit de mes pas retentissant partout contre les murs de l'aéroport endormi. Les rayons de la lune diffusaient des lueurs vertes déformées, teintés par la chlorophylle : je n'avais plus beaucoup de temps. Bientôt la végétation allait m'engloutir, moi aussi.
+
+
 ## Le pacte
 
 C'est bon ! Je suis satisfait de l'état de mon projet [ReadAction](https://louisdalo.github.io/readaction/). 
@@ -21,26 +26,9 @@ Ce que je propose, c'est que **tous les mercredis**, je prenne une combinaison d
 
 Evidemment ce sera nul au début (pas trop quand même j'espère), mais le but est de justement de m'améliorer. Une fois par semaine ça semble faisable. Je crois...
 
-Du coup, voici donc mon premier essai ! 
+Du coup, ce que vous avez juste au-dessus, c'est mon premier essai ! 
 
-*J'ai mis #0 parce que c'est la première semaine et c'est vraiment un crash test*
-
-## ReadAction
-### "Se mettre au vert"
-
-> Je marchais seul au milieu du hall, le bruit de mes pas retentissant partout contre les murs de l'aéroport endormi. Les rayons de la lune diffusaient des lueurs vertes déformées, teintés par la chlorophylle : je n'avais plus beaucoup de temps. Bientôt la végétation allait m'engloutir, moi aussi.
-
-
-### Les contraintes
-
-J'ai rédigé ce texte en suivant les premières contraintes tirées au hasard par le générateur:
-<ul style="line-height: 1;">
-	<li>Longueur : 50 mots</li>
-	<li>Genre : Aventure</li>
-	<li>Point de vue : 1ère personne</li>
-	<li>Cadre : Un aéroport en pleine nuit</li>
-	<li>À inclure : la couleur "chlorophylle"</li>
-</ul>
+*Et c'est vraiment un crash test je trouve.*
 
 ## Quelques commentaires
 
@@ -53,5 +41,16 @@ On se dit à la semaine prochaine ?
 **_La bise. LD._**
 
 --- 
+
+Les contraintes (premier tirage !) étaient :
+<ul style="line-height: 1;">
+	<li>Longueur : 50 mots</li>
+	<li>Genre : Aventure</li>
+	<li>Point de vue : 1ère personne</li>
+	<li>Cadre : Un aéroport en pleine nuit</li>
+	<li>À inclure : la couleur "chlorophylle"</li>
+</ul>
+
+---
 
 _L'avatar de ce post a été créé avec le [Lofi Girl generator](https://lofigirl.com/generator)._
